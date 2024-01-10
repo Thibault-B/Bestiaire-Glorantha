@@ -1,0 +1,38 @@
+{
+  "id": "bestiaire-glorantha",
+  "title": "Bestiaire Glorantha",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "wiki-en-rqg",
+        "type": "module"
+      }
+    ]
+  },
+  "description": "Ce Package contient les sections Créatures Chaotiques, Monstres, Arthropodes Géants et Animaux du Bestiaire.",
+  "authors": [
+    {
+      "name": "Thibault Bernard",
+      "email": "thibault.bernard@gmail.com",
+      "discord": "Thibault"
+    }
+  ],
+  "packs": [
+    {
+      "name": "bestiaire-rqg",
+      "label": "Bestiaire RQG",
+      "path": "packs/bestiaire-rqg",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "rqg"
+    }
+  ]
+}
